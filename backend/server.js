@@ -18,7 +18,7 @@ app.post("/chat", async (req, res) => {
     const response = await fetch("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${process.env}`,
+        "Authorization": `Bearer ${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`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
